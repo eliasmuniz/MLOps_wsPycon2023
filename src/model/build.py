@@ -25,6 +25,7 @@ if not os.path.exists("./model"):
 num_classes = 10
 input_shape = 784
 
+
 def build_model_and_log(config, model, model_name="MLP", model_description="Simple MLP"):
     with wandb.init(project="MLOps-Pycon2023", 
         name=f"initialize Model ExecId-{args.IdExecution}", 
