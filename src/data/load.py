@@ -14,7 +14,7 @@ if args.IdExecution:
 
 def load(train_size=.8):
     """
-    # Load the data
+    # Load the data 
     """
       
     # the data, split between train and test sets
@@ -34,6 +34,7 @@ def load(train_size=.8):
     return datasets
 
 def load_and_log():
+    
     # 🚀 start a run, with a type to label it and a project it can call home
     with wandb.init(
         project="MLOps-Pycon2023",
